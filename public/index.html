@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>AirJLD</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://localhost:3003/style.css">
+  <!-- <link rel="stylesheet" href="https://localhost:3000/style.css"> -->
+</head>
+<body>
+   <div id="Gallery"></div>
+    <div id="Description"></div>
+    <div id="Reviews"></div>
+    <div id="Booking"></div>
+    <script src="/lib/react.development.js"></script>
+    <script src="/lib/react-dom.development.js"></script>
+    <!-- <script src="http://localhost:3004/bundle.js"></script> -->
+    <script src="http://localhost:3003/bundle.js"></script>
+    <script>
+      // ReactDOM.render(
+      //   React.createElement(Gallery),
+      //   document.getElementById('Gallery')
+      // );
+      ReactDOM.render(
+        React.createElement(Description),
+        document.getElementById('Description')
+      );
+      // ReactDOM.render(
+      //   React.createElement(Reviews),
+      //   document.getElementById('Reviews')
+      // );
+      // ReactDOM.render(
+      //   React.createElement(Booking),
+      //   document.getElementById('Booking')
+      // );
+    </script>
+</body>
+</html>
